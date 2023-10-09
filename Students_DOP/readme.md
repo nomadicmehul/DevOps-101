@@ -89,38 +89,7 @@ The key takeaway is that DevOps is about making the entire software development 
 
 **Q.4.** Write any 10 Docker commands with working explanation of that commands? 
 
-**Ans. **  
-1. **docker --version**
-   - **Explanation:** This command simply displays the installed Docker version. It's helpful to confirm that Docker is properly installed on your system.
-
-2. **docker pull [image]**
-   - **Explanation:** Use this command to download a Docker image from Docker Hub or another registry. For example, to pull the official Ubuntu image, you'd run `docker pull ubuntu`.
-
-3. **docker run [options] [image]**
-   - **Explanation:** This command is used to create and start a container based on a Docker image. For instance, `docker run -it ubuntu` runs an interactive shell in a new Ubuntu container.
-
-4. **docker ps**
-   - **Explanation:** This command lists all running containers. It's handy for checking the status of your containers.
-
-5. **docker images**
-   - **Explanation:** Use this command to display a list of all the Docker images you've downloaded or created locally.
-
-6. **docker stop [container]**
-   - **Explanation:** To stop a running container, you can use this command. For example, `docker stop my_container` would stop a container named "my_container."
-
-7. **docker rm [container]**
-   - **Explanation:** This command removes one or more stopped containers. It helps clean up resources. To remove a specific container, run `docker rm my_container`.
-
-8. **docker rmi [image]**
-   - **Explanation:** To delete a Docker image that you no longer need, use this command. For example, `docker rmi my_image` removes an image named "my_image."
-
-9. **docker exec [options] [container] [command]**
-   - **Explanation:** This command allows you to run a command inside a running container. For instance, `docker exec -it my_container bash` starts an interactive shell session in the "my_container" container.
-
-10. **docker-compose [options]**
-    - **Explanation:** Docker Compose is a tool for defining and running multi-container Docker applications. You use a YAML file (usually named `docker-compose.yml`) to configure your application's services and then use `docker-compose` to start everything with a single command, like `docker-compose up`.
-
-Remember that Docker commands can be quite powerful, so it's essential to understand what each command does and to be cautious when using them. It's also helpful to consult the official Docker documentation for more details and examples as you explore containerization further.
+**Ans.**  Read [HERE](https://github.com/oscfcommunity/CloudCaptain/blob/main/Docker/docker-basic-commands.md)
 
 **Q.5** Please expain 5 use cases of Virtualization and Container. 
 
